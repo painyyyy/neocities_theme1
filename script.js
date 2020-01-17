@@ -1,87 +1,87 @@
 function display_random_image() 
 {
      var theImages = [{
-        src: "/cutify/01.gif"
+        src: "01.gif"
     }, {
-        src: "/cutify/02.gif"
+        src: "02.gif"
     }, {
-       src: "/cutify/03.gif"
+       src: "03.gif"
     }, {
-        src: "/cutify/04.gif"
+        src: "04.gif"
     }, {
-       src: "/cutify/05.gif"
+       src: "05.gif"
     }, {
-        src: "/cutify/06.gif"
+        src: "06.gif"
     }, {
-       src: "/cutify/07.gif"
+       src: "07.gif"
     }, {
-        src: "/cutify/08.gif"
+        src: "08.gif"
     }, {
-       src: "/cutify/09.gif"
+       src: "09.gif"
     }, {
-        src: "/cutify/10.gif"
+        src: "10.gif"
     }, {
-       src: "/cutify/11.gif"
+       src: "11.gif"
     }, {
-        src: "/cutify/12.gif"
+        src: "12.gif"
     }, {
-       src: "/cutify/13.gif"
+       src: "13.gif"
     }, {
-        src: "/cutify/14.gif"
+        src: "14.gif"
     }, {
-       src: "/cutify/15.gif"
+       src: "15.gif"
     }, {
-        src: "/cutify/16.gif"
+        src: "16.gif"
     }, {
-       src: "/cutify/17.gif"
+       src: "17.gif"
     }, {
-        src: "/cutify/18.gif"
+        src: "18.gif"
     }, {
-       src: "/cutify/19.gif"
+       src: "19.gif"
     }, {
-        src: "/cutify/20.gif"
+        src: "20.gif"
     }, {
-       src: "/cutify/21.gif"
+       src: "21.gif"
     }, {
-        src: "/cutify/22.gif"
+        src: "22.gif"
     }, {
-       src: "/cutify/23.gif"
+       src: "23.gif"
     }, {
-        src: "/cutify/24.gif"
+        src: "24.gif"
     }, {
-       src: "/cutify/25.gif"
+       src: "25.gif"
     }, {
-        src: "/cutify/26.gif"
+        src: "26.gif"
     }, {
-       src: "/cutify/27.gif"
+       src: "27.gif"
     }, {
-        src: "/cutify/28.gif"
+        src: "28.gif"
     }, {
-       src: "/cutify/29.gif"
+       src: "29.gif"
     }, {
-        src: "/cutify/30.gif"
+        src: "30.gif"
     }, {
-       src: "/cutify/31.gif"
+       src: "31.gif"
     }, {
-        src: "/cutify/32.gif"
+        src: "32.gif"
     }, {
-       src: "/cutify/33.gif"
+       src: "33.gif"
     }, {
-        src: "/cutify/34.gif"
+        src: "34.gif"
     }, {
-       src: "/cutify/35.gif"
+       src: "35.gif"
     }, {
-        src: "/cutify/36.gif"
+        src: "36.gif"
     }, {
-       src: "/cutify/37.gif"
+       src: "37.gif"
     }, {
-        src: "/cutify/38.gif"
+        src: "38.gif"
     }, {
-        src: "/cutify/39.gif"
+        src: "39.gif"
     }, {
-        src: "/cutify/40.gif"
+        src: "40.gif"
     }, {
-        src: "/cutify/41.gif"
+        src: "41.gif"
     }];
     
     var preBuffer = [];
