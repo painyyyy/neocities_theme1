@@ -1,0 +1,351 @@
+body {
+  background-color:white;
+  color: black;
+  font-size:14px;
+  text-align:left;
+  letter-spacing:1px;
+  font-family:Lucida Console, Monaco, monospace;
+  transition:.3s;
+  overflow-x:hidden;
+}
+
+h1 {
+  color:black;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:36px;
+  letter-spacing:1px;
+  text-decoration:none;
+  line-height:32px;
+  background:transparent;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active  {
+  color:black;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:36px;
+  letter-spacing:1px;
+  text-decoration:none;
+  line-height:32px;
+  background:transparent;
+}
+
+h2 {
+  color:black;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:20px;
+  letter-spacing:1px;
+}
+
+
+h3 {
+  color:black;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:20px;
+  letter-spacing:1px; 
+}
+
+
+a:link {
+  text-decoration: underline;
+  color: blue;
+  text-align:left;
+  letter-spacing:1px;
+}
+ 
+a:visited{
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  background-color:yellow;
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+p {
+  color:black;
+}
+
+#wrapper{
+ overflow-x:hidden;
+}
+  
+#sidebar1 {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline-block;
+  height:100%;
+  width:200px;
+  vertical-align:top;
+  border-right: 1px solid black;
+  position:fixed;
+  margin-top:-10px;
+}
+
+.box {
+  margin-left:-3px;
+  position:absolute;
+}
+
+.box a {
+  width:10px;
+  height:10px;
+  margin:3px;
+  border:1px solid black;
+  text-indent:-9999px;
+  float:left;
+  cursor:pointer;
+}
+
+#pink {
+  background:#FFC0CB;
+}
+
+#purple {
+  background:#CCCCFF
+}
+
+#blue {
+  background:#99CCFF;
+}
+
+#peach{
+  background:#FFDAB9;
+}
+
+#green {
+  background:#CCFFCC;
+}
+
+#white {
+  background:#ffffff;
+}
+
+select:focus {
+  outline:none;
+}
+
+.row::after {
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.column {
+  float:left;
+}
+
+#controls  {  
+  transition:.25s ease-out;
+}
+
+#controls a {  
+	font-size:24px;
+    color:black;
+    display:inline-block;
+    font-weight:bold;
+    padding: 5px;
+}
+
+#controls a:hover {  
+   transition:.25s ease-out;
+}
+
+#small     {  font-size:10px !important;}
+#medium    {  font-size:14px !important;}
+#large     {  font-size:18px  !important;}
+#max       {  font-size:24px  !important;}
+
+.small     {  font-size:75%;}
+
+#sidebar2 {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline-block;
+  height:100%;
+  width:260px;
+  vertical-align:top;
+  position:fixed;
+  margin-left:200px;
+  padding-left:20px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  margin-top:-10px;
+}
+
+#sidebar3 {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline-block;
+  height:100%;
+  width:700px;
+  vertical-align:top;
+  margin-left:200px;
+  padding-left:20px;
+  margin-top:-10px;
+}
+
+#content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline-block;
+  width:45%;
+  vertical-align:top;
+  position:relative;
+  margin-left:490px;
+  padding-left:20px;
+  margin-top:-10px;
+  padding-right:10px;
+}
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  /* put your css styles in here */
+  
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;height:500px;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  /* put your css styles in here */
+  #sidebar1{border:none;position:relative;}
+  #sidebar2 {position:relative;display:inline;}
+  #sidebar3 {position:relative;display:inline;}
+  #content {
+  font-size:14px;
+  color: black;
+  text-align:left;
+  letter-spacing:1px;
+  display:inline;
+  vertical-align:top;
+  position:relative;
+  margin-left:430px;
+  padding-left:20px;
+  padding-right:50px;
+}
+}

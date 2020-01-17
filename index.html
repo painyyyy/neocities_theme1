@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+ 
+  <body>
+  <div id="wrapper">
+    <div id="sidebar1">
+    <h1><a href="/">Website Title</a></h1>
+    <p><a href="/">Home</a><br>
+    <a href="/page1.html">Link1</a><br>
+    <a href="/">Link2</a><br>
+    <a href="/">Link3</a></p>
+    <button id="jsstyle" onclick="display_random_image();">Cutify <img src="/icons/mushroom.gif"/></button> 
+    <br><br>
+<div class="box">
+<a onclick="changecolor('pink')" id="pink">#FFC0CB</a>
+<a onclick="changecolor('purple')" id="purple">#CCCCFF</a>
+<a onclick="changecolor('blue')" id="blue">#99CCFF</a>
+<a onclick="changecolor('peach')" id="peach">#FFDAB9</a>
+<a onclick="changecolor('green')" id="green">#CCFFCC</a>
+<a onclick="changecolor('white')" id="white">#FFFFFF</a>
+</div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <select id="option-font" onchange="change_font()">
+          <option value="Lucida Console, Monaco, monospace">Font Family</option>
+          <option value="Georgia, serif">Serif</option>
+          <option value="Verdana, Geneva, sans-serif">Sans Serif</option>
+          <option value="Courier New, Courier, monospace">Monospace</option>
+          <option value="Monotype Corsiva, Brush Script MT, cursive, sans-serif">Cursive</option>
+          <option value="Comic Sans MS, ChalkboardSE-Regular , cursive, sans-serif">Fun</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br>
+  <div id="controls">
+    <a href="#" id="small">A</a>
+    <a href="#" id="medium" class="selected">A</a>
+    <a href="#" id="large">A</a>
+    <a href="#" id="max">A</a>
+  </div>
+    </div>
+    <div id="sidebar3">
+    <h2>About</h2>
+    <iframe src="/credit.html"></iframe>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam libero ipsum, convallis id mauris eu, consequat eleifend justo. Duis sit amet orci varius, bibendum diam id, ullamcorper felis. Sed interdum massa tellus, sed maximus augue efficitur et. Nullam lectus quam, ullamcorper ac placerat vel, semper commodo velit. Vivamus in dapibus lacus, in congue massa. Quisque porta justo eget arcu placerat ultricies. Ut non lacus consequat, faucibus nisl et, volutpat leo. Nulla et feugiat mi. Pellentesque maximus nisl at enim malesuada luctus. Pellentesque a velit aliquet, pretium nulla in, blandit magna. In porttitor euismod ligula non gravida. Integer nec erat tortor.<br><br> Cras porta velit non leo varius rutrum. Aliquam dapibus erat et lorem convallis, vitae tempus nisl tempor. Aliquam eget nibh et mi lobortis placerat. Phasellus luctus ut nulla at malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus euismod velit lobortis, ullamcorper erat ac, malesuada lorem. Nunc in odio eu augue accumsan condimentum. Suspendisse commodo turpis non fringilla imperdiet. Vestibulum suscipit mi quis felis interdum ullamcorper. Proin mattis sagittis sem, sit amet tincidunt metus lobortis ut. Vivamus egestas lorem a felis iaculis lacinia.</p>
+    </div>
+    <div id="content">
+    </div>
+   </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>

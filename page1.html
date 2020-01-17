@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+ 
+  <body>
+  <div id="wrapper">
+    <div id="sidebar1">
+    <h1><a href="/">Website Title</a></h1>
+    <p><a href="/">Home</a><br>
+    <a href="/link1.html">Link1</a><br>
+    <a href="/">Link2</a><br>
+    <a href="/">Link3</a></p>
+    <button id="jsstyle" onclick="display_random_image();">Cutify <img src="/icons/mushroom.gif"/></button> 
+    <br><br>
+<div class="box">
+<a onclick="changecolor('pink')" id="pink">#FFC0CB</a>
+<a onclick="changecolor('purple')" id="purple">#CCCCFF</a>
+<a onclick="changecolor('blue')" id="blue">#99CCFF</a>
+<a onclick="changecolor('peach')" id="peach">#FFDAB9</a>
+<a onclick="changecolor('green')" id="green">#CCFFCC</a>
+<a onclick="changecolor('white')" id="white">#FFFFFF</a>
+</div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <select id="option-font" onchange="change_font()">
+          <option value="Lucida Console, Monaco, monospace">Font Family</option>
+          <option value="Georgia, serif">Serif</option>
+          <option value="Verdana, Geneva, sans-serif">Sans Serif</option>
+          <option value="Courier New, Courier, monospace">Monospace</option>
+          <option value="Monotype Corsiva, Brush Script MT, cursive, sans-serif">Cursive</option>
+          <option value="Comic Sans MS, ChalkboardSE-Regular , cursive, sans-serif">Fun</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br>
+  <div id="controls">
+    <a href="#" id="small">A</a>
+    <a href="#" id="medium" class="selected">A</a>
+    <a href="#" id="large">A</a>
+    <a href="#" id="max">A</a>
+  </div>
+    </div>
+    <div id="sidebar2">
+    <h2>Index</h2>
+    <p><a href="#1">Lorem ipsum dolor sit</a></p>
+    <p><a href="#2">Nullam libero ipsum</a></p>
+    <p><a href="#3">Cras consequat rhoncus</a></p>
+    </div>
+    <div id="content">
+    <h2 id="contents1">Content</h2>
+    <h3 id="1">Lorem ipsum dolor sit</h3>
+    <p>Aliquam ex lorem, egestas ut dolor et, ornare tempor ligula. Aliquam lectus est, commodo eget condimentum id, porta non purus. Maecenas tempor, metus quis maximus ultricies, urna erat egestas lacus, id blandit orci lectus et mauris. Morbi lacinia facilisis urna sit amet maximus. Curabitur eget tristique ipsum. Aenean quis fringilla mauris. Integer blandit in nisl vitae elementum. Vestibulum id augue porttitor, tincidunt lectus vel, suscipit nisi. Cras consequat rhoncus justo at tincidunt. Maecenas condimentum nisi non auctor interdum. Suspendisse aliquam felis ut sodales molestie. Cras tincidunt eros quis libero volutpat semper. Donec dui odio, sagittis id eleifend vel, auctor non ipsum. Quisque quis nibh porttitor, consequat tortor vitae, facilisis sapien. Suspendisse porttitor arcu quis ultricies tempor. Nunc quis vehicula nisl.<br><br>Nullam varius tellus justo. Suspendisse diam purus, posuere sed ex quis, placerat luctus neque. Nullam accumsan ex at ullamcorper iaculis. Vestibulum vel venenatis arcu. Ut leo justo, elementum ut ante sit amet, ullamcorper ullamcorper turpis. Sed vitae arcu urna. Duis vel aliquam urna. Sed nisi tellus, mollis id mi in, ultrices feugiat urna. In tincidunt condimentum felis sit amet gravida. Sed eu efficitur diam, et posuere elit. Nam vulputate odio diam, a tristique turpis molestie sit amet. Donec ullamcorper scelerisque nisi quis accumsan. Phasellus vestibulum vestibulum ullamcorper. Suspendisse convallis lorem orci, eget pellentesque augue faucibus porttitor. Sed interdum nibh quis aliquam bibendum. Suspendisse ultricies, neque at laoreet venenatis, dolor urna vulputate ligula, at tempor ipsum velit ut enim.<br><br>Quisque interdum sapien vel tellus placerat sagittis. Donec porta leo vel venenatis ullamcorper. Praesent consectetur tristique sapien nec euismod. Quisque dapibus facilisis arcu, maximus eleifend urna euismod et. Nullam interdum nisi sed porta tempor. Etiam sodales, nibh lobortis rutrum commodo, mauris ex posuere magna, lacinia fringilla velit dolor nec magna. Aenean libero orci, dapibus at sodales vel, maximus sit amet sapien. Quisque faucibus pellentesque ipsum, eu rutrum magna viverra a. Vivamus tincidunt ipsum eu ultricies aliquam. Morbi luctus dui ac sem volutpat maximus a ac ante. Donec eleifend iaculis ligula, at pretium ligula rhoncus eget. Morbi mollis tortor nec sodales ultrices. Proin nec massa varius, facilisis ligula a, eleifend eros. Nulla fermentum finibus accumsan.</p><a href="#contents1">Up &uarr;</a>
+    <h3 id="2">Nullam libero ipsum</h3>
+    <p>Nullam varius tellus justo. Suspendisse diam purus, posuere sed ex quis, placerat luctus neque. Nullam accumsan ex at ullamcorper iaculis. Vestibulum vel venenatis arcu. Ut leo justo, elementum ut ante sit amet, ullamcorper ullamcorper turpis. Sed vitae arcu urna. Duis vel aliquam urna. Sed nisi tellus, mollis id mi in, ultrices feugiat urna. In tincidunt condimentum felis sit amet gravida. Sed eu efficitur diam, et posuere elit. Nam vulputate odio diam, a tristique turpis molestie sit amet. Donec ullamcorper scelerisque nisi quis accumsan. Phasellus vestibulum vestibulum ullamcorper. Suspendisse convallis lorem orci, eget pellentesque augue faucibus porttitor. Sed interdum nibh quis aliquam bibendum. Suspendisse ultricies, neque at laoreet venenatis, dolor urna vulputate ligula, at tempor ipsum velit ut enim.<br><br>Quisque interdum sapien vel tellus placerat sagittis. Donec porta leo vel venenatis ullamcorper. Praesent consectetur tristique sapien nec euismod. Quisque dapibus facilisis arcu, maximus eleifend urna euismod et. Nullam interdum nisi sed porta tempor. Etiam sodales, nibh lobortis rutrum commodo, mauris ex posuere magna, lacinia fringilla velit dolor nec magna. Aenean libero orci, dapibus at sodales vel, maximus sit amet sapien. Quisque faucibus pellentesque ipsum, eu rutrum magna viverra a. Vivamus tincidunt ipsum eu ultricies aliquam. Morbi luctus dui ac sem volutpat maximus a ac ante. Donec eleifend iaculis ligula, at pretium ligula rhoncus eget. Morbi mollis tortor nec sodales ultrices. Proin nec massa varius, facilisis ligula a, eleifend eros. Nulla fermentum finibus accumsan.</p><a href="#contents1">Up &uarr;</a>
+    <h3 id="3">Cras consequat rhoncus</h3>
+    <p>Quisque interdum sapien vel tellus placerat sagittis. Donec porta leo vel venenatis ullamcorper. Praesent consectetur tristique sapien nec euismod. Quisque dapibus facilisis arcu, maximus eleifend urna euismod et. Nullam interdum nisi sed porta tempor. Etiam sodales, nibh lobortis rutrum commodo, mauris ex posuere magna, lacinia fringilla velit dolor nec magna. Aenean libero orci, dapibus at sodales vel, maximus sit amet sapien. Quisque faucibus pellentesque ipsum, eu rutrum magna viverra a. Vivamus tincidunt ipsum eu ultricies aliquam. Morbi luctus dui ac sem volutpat maximus a ac ante. Donec eleifend iaculis ligula, at pretium ligula rhoncus eget. Morbi mollis tortor nec sodales ultrices. Proin nec massa varius, facilisis ligula a, eleifend eros. Nulla fermentum finibus accumsan.</p><a href="#contents1">Up &uarr;</a>
+    </div>
+  </div>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
