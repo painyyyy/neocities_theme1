@@ -1,115 +1,29 @@
-function display_random_image() 
-{
-     var theImages = [{
-        src: "01.gif"
-    }, {
-        src: "02.gif"
-    }, {
-       src: "03.gif"
-    }, {
-        src: "04.gif"
-    }, {
-       src: "05.gif"
-    }, {
-        src: "06.gif"
-    }, {
-       src: "07.gif"
-    }, {
-        src: "08.gif"
-    }, {
-       src: "09.gif"
-    }, {
-        src: "10.gif"
-    }, {
-       src: "11.gif"
-    }, {
-        src: "12.gif"
-    }, {
-       src: "13.gif"
-    }, {
-        src: "14.gif"
-    }, {
-       src: "15.gif"
-    }, {
-        src: "16.gif"
-    }, {
-       src: "17.gif"
-    }, {
-        src: "18.gif"
-    }, {
-       src: "19.gif"
-    }, {
-        src: "20.gif"
-    }, {
-       src: "21.gif"
-    }, {
-        src: "22.gif"
-    }, {
-       src: "23.gif"
-    }, {
-        src: "24.gif"
-    }, {
-       src: "25.gif"
-    }, {
-        src: "26.gif"
-    }, {
-       src: "27.gif"
-    }, {
-        src: "28.gif"
-    }, {
-       src: "29.gif"
-    }, {
-        src: "30.gif"
-    }, {
-       src: "31.gif"
-    }, {
-        src: "32.gif"
-    }, {
-       src: "33.gif"
-    }, {
-        src: "34.gif"
-    }, {
-       src: "35.gif"
-    }, {
-        src: "36.gif"
-    }, {
-       src: "37.gif"
-    }, {
-        src: "38.gif"
-    }, {
-        src: "39.gif"
-    }, {
-        src: "40.gif"
-    }, {
-        src: "41.gif"
-    }];
-    
-    var preBuffer = [];
-    for (var i = 0, j = theImages.length; i < j; i++) {
-        preBuffer[i] = new Image();
-        preBuffer[i].src = theImages[i].src;
-    }
-   
-  function getRandomInt(min,max) 
-    {  
-	imn = Math.floor(Math.random() * (max - min + 1)) + min;
-    return preBuffer[imn];
-    }  
+function display_random_image() {
+    var num = 1 + Math.floor(40 * Math.random());
+    var nums = num.toString();
+    while(nums.length < 2)
+        nums = '0' + nums;
 
-var newImage = getRandomInt(0, preBuffer.length - 1);
+    var w = document.body.clientWidth;
+    var h = document.body.clientHeight;
 
-newImage.style.position = 'absolute';
-newImage.style.top = document.body.clientHeight * Math.random() + 'px';
-newImage.style.left = document.body.clientWidth * Math.random() + 'px';
+    var x = Math.floor(w * Math.random());
+    var y = Math.floor(h * Math.random());
 
-document.body.appendChild(newImage);
+    var img = new Image();
+    img.src = 'cutify/' + nums + '.gif';
+    img.style.position = 'absolute';
+    img.style.top = y + 'px';
+    img.style.left = x + 'px';
+
+    document.body.appendChild(img);
 }
 
-function changecolor(id){
+function changecolor(id) {
   document.body.style.background = document.getElementById(id).innerHTML;
 }
 
-function change_font(){
+function change_font() {
   let optionFont = document.getElementById('option-font'),
   body = document.getElementsByTagName('body');
     
