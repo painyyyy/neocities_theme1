@@ -1,3 +1,10 @@
+html { 
+  height:100%;
+  width:100%;
+  margin: 0 auto;
+  padding:0;
+}
+
 body {
   background-color:white;
   color: black;
@@ -7,6 +14,8 @@ body {
   font-family:Lucida Console, Monaco, monospace;
   transition:.3s;
   overflow-x:hidden;
+  height:100%;
+  width:100%;
 }
 
 h1 {
@@ -56,7 +65,7 @@ a:link {
   letter-spacing:1px;
 }
  
-a:visited{
+a:visited {
   text-decoration: underline;
   color: blue;
 }
@@ -76,7 +85,7 @@ p {
   color:black;
 }
 
-#wrapper{
+#wrapper {
  overflow-x:hidden;
 }
   
@@ -217,7 +226,6 @@ select:focus {
 }
 
 @media all and (min-width:960px) and (max-width: 1024px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
@@ -236,7 +244,6 @@ select:focus {
 }
 
 @media all and (min-width:801px) and (max-width: 959px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
@@ -255,7 +262,6 @@ select:focus {
 }
 
 @media all and (min-width:769px) and (max-width: 800px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
@@ -274,7 +280,6 @@ select:focus {
 }
 
 @media all and (min-width:569px) and (max-width: 768px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
@@ -293,7 +298,6 @@ select:focus {
 }
 
 @media all and (min-width:481px) and (max-width: 568px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
@@ -312,8 +316,6 @@ select:focus {
 }
 
 @media all and (min-width:321px) and (max-width: 480px) {
-  /* put your css styles in here */
-  
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;height:500px;}
@@ -332,7 +334,6 @@ select:focus {
 }
 
 @media all and (min-width:0px) and (max-width: 320px) {
-  /* put your css styles in here */
   #sidebar1{border:none;position:relative;}
   #sidebar2 {position:relative;display:inline;}
   #sidebar3 {position:relative;display:inline;}
